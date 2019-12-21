@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:startDestination="@id/navigation_itemsearch"
+    android:id="@+id/navigation_menu">
+
+    <fragment android:id="@+id/navigation_itemsearch"
+        android:name="com.example.prototypebestprice.ui.itemSearchFragment"
+        android:label="fragment_first"
+        tools:layout="@layout/fragment_itemsearch" />
+
+    <fragment android:id="@+id/navigation_stockmanage"
+        android:name="com.example.prototypebestprice.ui.stockManageFragment"
+        android:label="fragment_first"
+        tools:layout="@layout/fragment_stockmanage" />
+
+    <fragment android:id="@+id/navigation_setting"
+        android:name="com.example.prototypebestprice.ui.settingFragment"
+        android:label="fragment_first"
+        tools:layout="@layout/fragment_setting" />
+
+</navigation>
