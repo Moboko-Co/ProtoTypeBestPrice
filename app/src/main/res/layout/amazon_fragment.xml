@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.AmazonFragment">
+
+
+    <com.github.mikephil.charting.charts.LineChart
+        android:id="@+id/amazon_chart"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:background="@color/colorGray" />
+
+    <ScrollView
+        android:id="@+id/amazon_sv"
+        android:layout_width="match_parent"
+        android:layout_height="5000dp"
+        android:layout_below="@+id/amazon_chart"
+        android:background="@color/colorPrimary"
+        android:isScrollContainer="false"
+        />
+
+
+</RelativeLayout>

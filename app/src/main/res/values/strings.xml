@@ -3,4 +3,12 @@
     <string name="nav_name_itemSearch">商品検索</string>
     <string name="nav_name_stockManage">出品管理</string>
     <string name="nav_name_setting">設定</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="tab_name_rakuten">楽天</string>
+    <string name="tab_name_amazon">アマゾン</string>
+    <string name="tab_name_merukari">メルカリ</string>
+    <string name="tab_name_rakuma">ラクマ</string>
+    <string name="tab_name_paypay">ペイペイ</string>
 </resources>
